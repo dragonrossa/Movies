@@ -13,7 +13,7 @@ namespace RazorPagesMovie.Data
             : base(options)
         {
         }
-
+         
         public DbSet<RazorPagesMovie.Models.Movie> Movie { get; set; }
     }
 }
